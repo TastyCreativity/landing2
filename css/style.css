@@ -1,0 +1,78 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #000;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.page-header__intro-message {
+  background-color: #cccccc;
+}
+
+.presentation__text {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.main__description-text {
+  background: rgba(255, 255, 0, 0.7);
+  padding-left: 15%;
+}
+
+.presentation {
+  background: #f2f2f2;
+}
+
+.cooperation {
+  background: #b3b3b3;
+}
+
+.cooperation__btn {
+  background: rgba(255, 255, 0, 0.7);
+  border: none;
+  width: 100%;
+}
+
+.history {
+  background: #333333;
+}
+
+.timeline {
+  height: 20px;
+  background: #808080;
+}
+
+.history__objectives {
+  background: rgba(255, 255, 0, 0.7);
+}
+
+.sertification {
+  background: #b3b3b3;
+}
+
+.links {
+  background: #f2f2f2;
+}
+
+.links-btn {
+  background: rgba(255, 255, 0, 0.7);
+}
+
+.contacts__btn {
+  background: rgba(255, 255, 0, 0.7);
+  border-bottom: 1px solid #333333;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+.contact-link {
+  display: block;
+}
+
+.page-footer {
+  background: #ccc;
+}
