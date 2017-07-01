@@ -48,13 +48,11 @@ h2, h3, h4, h5, h6 {
   font-size: 24pt;
   color: #000;
   margin-bottom: 200px;
-  padding-left: 40px;
 }
 
 .intro-message__tag {
   font-size: 18pt;
   color: #ffff00;
-  padding-left: 40px;
 }
 
 .page-header__intro-message {
@@ -62,7 +60,6 @@ h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
-  background-position-x: -10px;
   margin-bottom: 50px;
 }
 
@@ -146,7 +143,7 @@ h2, h3, h4, h5, h6 {
   font-size: 23pt;
   text-shadow: 1px 1px 2px black;
   color: #ffff00;
-  margin: 0 0 20px 0;
+  margin: 17px 0 20px 0;
 }
 
 .cooperation__description {
@@ -193,7 +190,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .timeline {
-  height: 62px;
+  padding: 10px;
   background: #808080;
   color: #999999;
   font-size: 36pt;
@@ -228,6 +225,44 @@ h2, h3, h4, h5, h6 {
 
 .objectives__text {
   font-size: 12.5pt;
+}
+
+.timeline__active-line {
+  color: #ececec;
+}
+
+.timeline-button {
+  width: 65px;
+  height: 90px;
+  font-size: 0;
+  border: none;
+}
+
+.timeline-button-1 {
+  right: 385px;
+  top: -4px;
+  position: absolute;
+  background: url("../img/calendar_arrows.png");
+  background-position: -90px -2px;
+}
+
+.timeline-button-1:active {
+  background: url("../img/calendar_arrows.png");
+  background-position: -10px -2px;
+  cursor: pointer;
+}
+
+.timeline-button-2 {
+  position: absolute;
+  right: -60px;
+  top: -4px;
+  background: url("../img/calendar_arrows.png");
+  background-position: -582px -2px;
+}
+
+.timeline-button-2:active {
+  background: url("../img/calendar_arrows.png");
+  background-position: -502px -2px;
 }
 
 
@@ -281,6 +316,26 @@ h2, h3, h4, h5, h6 {
   text-align: left;
   text-transform: uppercase;
   color: #666666;
+}
+
+.link__toggle {
+  position: absolute;
+  right: 40px;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 30px dashed;
+  color: #808080;
+}
+
+.link__button {
+  color: #808080;
+  font-size: 19pt;
+}
+
+.links__link {
+  color: #808080;
+  text-decoration: underline;
+  font-size: 12pt;
 }
 
 .btn__list {
@@ -357,18 +412,13 @@ h2, h3, h4, h5, h6 {
   background: #ccc;
 }
 
-.footer__copyright {
-  margin-bottom: 150px;
-  color: #333333;
-  font-size: 13pt;
-}
-
 .social {
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 .mail, .tel {
   color: #333333;
+  text-decoration: underline;
 }
 
 .page-footer__contact-list {
@@ -376,4 +426,40 @@ h2, h3, h4, h5, h6 {
   padding-bottom: 40px;
   color: #333333;
   font-size: 13pt;
+}
+
+.social-image {
+  -webkit-text-fill-color: #333333;
+  margin-right: 25px;
+}
+
+.footer__copyright {
+  display: flex;
+  margin: 0 auto;
+  padding-right: 190px;
+}
+
+.footer-copyright-image {
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer__copyright-licence {
+  width: 22px;
+}
+
+.footer__copyright-falanster {
+  font-size: 13pt;
+  color: #333333;
+  margin: 0 auto;
+  text-decoration: underline;
+  display: flex;
+}
+
+.page-footer__image {
+  padding: 10px 60px;
+  height: 140px;
+  background-image: url("../img/spritesheetnew.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
