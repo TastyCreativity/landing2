@@ -205,23 +205,32 @@ creative commons
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-lg-offset-2 col-sm-offset-2  col-sm-4">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-2  col-sm-4">
           <img src="img/cc_site_2014.png" height="200" width="200">
         </div>
-        <div class="col-lg-4 col-lg-offset-2 col-sm-offset-2  col-sm-4 visually-hidden">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-2  col-sm-4 visually-hidden">
           <img src="img/cc_site_2014.png" height="573" width="516">
         </div>
-        <div class="col-lg-4 col-lg-offset-2 col-sm-offset-2  col-sm-4 visually-hidden">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-2  col-sm-4 visually-hidden">
           <img src="img/cc_site_2014.png" height="573" width="516">
         </div>
-        <div class="col-lg-4 col-lg-offset-2 col-sm-offset-2  col-sm-4 visually-hidden">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-2  col-sm-4 visually-hidden">
           <img src="img/cc_site_2014.png" height="573" width="516">
         </div>
-        <div class="col-lg-4 col-lg-offset-2 col-sm-offset-2  col-sm-4 visually-hidden">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-2  col-sm-4 visually-hidden">
           <img src="img/cc_site_2014.png" height="573" width="516">
         </div>
         <div class="col-lg-4 col-lg-offset-1 col-sm-offset-0 col-sm-6">
-          <div class="timeline">201820172016</div>
+          <div class="timeline__inner">
+            <button class="timeline-button timeline-button-1">Назад</button>
+            <div class="timeline">
+              <span>2016</span>
+              <span class="timeline__active-line">2017</span>
+              <span>2018</span>
+            </div>
+            <button class="timeline-button timeline-button-2">Вперед</button>
+          </div>
+
           <span class="history__list-title">Што плануем рабіць:</span>
           <ul class="history__list">
             <li class="history__list-item">-Вікіфікацыя (працягваем)</li>
@@ -271,7 +280,7 @@ creative commons
         </div>
       </div>
       <div class="row links__contetnt">
-        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-1 col-sm-5">
+        <div class="ccol-lg-4 col-lg-offset-1 col-sm-offset-1 col-sm-5 content-text-block1">
           <div class="links__cell-titleblock">
             <button class="link__buttons link__btn-1"><img class="link__button-img"  src="img/cc_pic_color_6_1.png" width="68" height="80"><span class="titleblock__title">дапаможнiкi</span></button>
           </div>
@@ -281,7 +290,7 @@ creative commons
             можна тут.
           </p>
         </div>
-        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-1 col-sm-5">
+        <div class="col-lg-4 col-lg-offset-1 col-sm-offset-1 col-sm-5 content-text-block1">
           <div class="links__cell-titleblock">
             <button class="link__buttons link__btn-2"><img class="link__button-img" src="img/cc_pic_color_6_2.png" width="86" height="85"><span class="titleblock__title">налепкi</span></button>
           </div>
@@ -294,24 +303,21 @@ creative commons
       </div>
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-sm-offset-0 col-sm-6  block-center links__list">
-          <button type="button" class="btn btn__list btn-default dropdown-toggle col-lg-6 col-sm-offset-6 col-sm-12 dropdown-menu-btn" data-toggle="dropdown">карысныя спасылкi<span class="caret"></span></button>
+          <button type="button" class="btn btn__list btn-default dropdown-toggle col-lg-6 col-sm-offset-6 col-sm-12 dropdown-menu-btn link__button" data-toggle="dropdown">карысныя спасылкi<span class="caret link__toggle"></span></button>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Пра арганiзацыю Творчых Суполак у Вiкiпедыi</a></li>
-            <li><a href="#">Даследванне СС i другая частка ў Беларусi</a></li>
-            <li><a href="#">Аналiтыка: Асноўныя перашкоды капирайта (+ частка 2)</a></li>
+            <li><a href="#" class="links__link">Пра арганiзацыю Творчых Суполак у Вiкiпедыi</a></li>
+            <li><a href="#" class="links__link">Даследванне СС i другая частка ў Беларусi</a></li>
+            <li><a href="#" class="links__link">Аналiтыка: Асноўныя перашкоды капирайта (+ частка 2)</a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
   <section class="contacts">
-    <div class="row">
-      <div class="col-lg-12">
-        <button class="contacts__btn text-center">
+    <button class="contacts__btn text-center">
 далучыцца да каманды
 </button>
-      </div>
-    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-lg-offset-1 col-sm-offset-1 col-sm-5">
@@ -327,9 +333,6 @@ creative commons
             <span class="contact-link">Facebook https://www.facebook.com/groups/1675631576015100/ </span>
           </p>
         </div>
-        <div class="map col-lg-4 col-lg-offset-2 col-sm-offset-1 col-sm-4">
-
-        </div>
       </div>
     </div>
   </section>
@@ -344,24 +347,43 @@ creative commons
           </ul>
           <p class="social"><span class="icons">
             <a href="https://www.facebook.com/groups/1039026109504642/?fref=ts" target="_blank">
-              <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-facebook-official fa-4x social-image" aria-hidden="true"></i>
             </a>
             <a href="https://vk.com/dig_lab" target="_blank">
-              <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-vk fa-4x social-image" aria-hidden="true"></i>
             </a>
             <a href="https://github.com/diglabby" target="_blank">
-              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-github fa-4x social-image" aria-hidden="true"></i>
             </a>
             <a href="https://www.youtube.com/channel/UCAmTfxxasQwNaKkljnmvc5A" target="_blank">
-              <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-youtube-square fa-4x social-image" aria-hidden="true"></i>
             </a>
             <a href="https://www.linkedin.com/groups/12028397" target="_blank">
-              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square fa-4x social-image" aria-hidden="true"></i>
             </a></span>
           </p>
-          <p class="footer__copyright copyleft"><span class="icons"><a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="cc cc-cc"></i> <i class="cc cc-by"></i> <i class="cc cc-sa"></i></a></span> <a href="https://falanster.by/be">Фаланстэр</a></p>
+          <div class="footer__copyright footer__copyright-licence copyleft">
+            <div class="footer-copyright-image">
+              <a>
+        <img class="copyright__img" src="img/cc.large.png" width="28" height="28" alt="айці-валанцёр">
+          </a>
+              <a>
+        <img class="copyright__img" src="img/by.large.png" width="28" height="28" alt="айці-валанцёр">
+          </a>
+              <a>
+        <img class="copyright__img" src="img/sa.large.png" width="28" height="28" alt="айці-валанцёр">
+          </a>
+            </div>
+            <p>
+              <a href="https://falanster.by/be" class="footer__copyright-falanster">Фаланстэр</a>
+            </p>
+          </div>
         </div>
       </div>
+      <div class="page-footer__image">
+      </div>
+    </div>
+
     </div>
   </section>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
