@@ -1,28 +1,31 @@
-@media @desktop-widths {
 .contacts__title {
-  font-size: 23pt;
+  font-size: 19pt;
   color: #333333;
+  text-align: center;
+}
+
+.contact-link--facebook {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contacts__text {
   font-weight: normal;
   padding-bottom: 0;
-  font-size: 12.5pt;
+  font-size: 11pt;
   color: #333333;
 }
 
 .contact-link {
   font-weight: normal;
   display: block;
-  font-size: 12.5pt;
+  font-size: 11pt;
   color: #333333;
 }
-
 .contacts__text-links {
   padding-bottom: 40px;
   color: #333333;
 }
-
 
 /*page-footer*/
 
@@ -36,12 +39,32 @@
   font-size: 13pt;
 }
 
-.social {
-  padding-bottom: 40px;
-}
-
 .mail, .tel {
   color: #333333;
+}
+
+
+@media @desktop-widths {
+.contacts__title {
+  font-size: 23pt;
+}
+
+.contact-link--facebook {
+  padding: 0;
+}
+
+.contacts__text {
+  font-size: 12.5pt;
+}
+
+.contact-link {
+  font-size: 12.5pt;
+}
+
+/*page-footer*/
+
+.social {
+  padding-bottom: 40px;
 }
 
 .page-footer__contact-list {
