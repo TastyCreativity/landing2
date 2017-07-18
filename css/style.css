@@ -14,6 +14,10 @@ h6 {
 .visually-hidden {
   display: none;
 }
+.main-header__nav {
+  background-color: #808080;
+  color: #333333;
+}
 .page-header__intro-message {
   background-color: #cccccc;
 }
@@ -56,6 +60,24 @@ h6 {
   }
 }
 @media (min-width: 720px) {
+  .nav__nav-button .nav__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav__nav-item {
+    display: inline-block;
+  }
+  .nav__left-block {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .nav__right-block {
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
   .intro-message__logo {
     padding-top: 55px;
   }
@@ -100,7 +122,7 @@ h6 {
   max-width: 70%;
   margin-bottom: 60px;
 }
-.contacts {
+.contacts-container {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -172,7 +194,7 @@ h6 {
   list-style: none;
   color: #fff;
   margin: 0;
-  padding: 20px;
+  padding-top: 0;
 }
 .cooperation {
   background: #b3b3b3;
@@ -190,6 +212,35 @@ h6 {
   margin-bottom: 30px;
 }
 /*history*/
+.history__image {
+  width: 100%;
+}
+.timeline__active-year {
+  color: #ececec;
+}
+.timeline-button {
+  display: inline-block;
+  font-size: 0;
+  border: none;
+  background: transparent;
+}
+.timeline__inner {
+  margin-top: 30px;
+}
+.timeline-button-1 {
+  background-image: url("../img/calendar_arrows.png");
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+  background-position: 120px;
+}
+.timeline-button-2 {
+  background-image: url("../img/calendar_arrows.png");
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+  background-position: 45px;
+}
 .history__title {
   font-size: 19pt;
   color: #ffff00;
@@ -197,7 +248,11 @@ h6 {
 .history {
   background: #333333;
 }
+.timeline__inner {
+  display: inline-flex;
+}
 .timeline {
+  display: inline-block;
   height: 50px;
   background: #808080;
   color: #999999;
@@ -245,9 +300,10 @@ h6 {
 .sertification__text {
   padding-top: 20px;
   font-size: 11pt;
+  margin-bottom: 50px;
 }
 .sertification__img {
-  width: 70%;
+  width: 100%;
 }
 .sertification {
   background: #b3b3b3;
@@ -305,10 +361,126 @@ h6 {
   padding: 10px 0 10px 0;
   width: 100%;
 }
+.cooperation__img-carrot {
+  width: 22%;
+}
+@media (min-width: 480px) {
+  .main__description-text {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .main__description-image {
+    max-width: 140%;
+    margin: 0;
+  }
+  .main___content-text p {
+    font-size: 12pt;
+  }
+  .main___content-text h2 {
+    font-size: 21pt;
+  }
+  .presentation__title {
+    font-size: 21pt;
+  }
+  .presentation__text {
+    font-size: 12pt;
+  }
+  .cooperation__content-container {
+    display: flex;
+  }
+  .cooperation-inner {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .cooperation__hidden-block {
+    display: none;
+  }
+  .cooperation__img {
+    display: block;
+  }
+  .cooperation__title {
+    font-size: 21pt;
+  }
+  .cooperation__list {
+    padding: 0;
+  }
+  .cooperation__name {
+    text-align: left;
+    font-size: 21pt;
+  }
+  .cooperation__description {
+    font-size: 12pt;
+    text-align: left;
+    padding: 0;
+  }
+  .cooperation__btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16.5pt;
+  }
+  .timeline {
+    font-size: 34pt;
+  }
+  .history__title {
+    font-size: 21pt;
+  }
+  .history__list-title {
+    font-size: 16pt;
+  }
+  .history__list {
+    font-size: 12pt;
+  }
+  .objectives__title {
+    font-size: 16pt;
+  }
+  .objectives__text {
+    font-size: 12pt;
+  }
+  .sertification__title {
+    font-size: 21pt;
+  }
+  .sertification__text {
+    font-size: 12pt;
+  }
+  .links__title {
+    font-size: 21pt;
+  }
+  .link__buttons {
+    font-size: 21pt;
+  }
+  .links__text {
+    font-size: 12pt;
+  }
+  .btn__list {
+    font-size: 13pt;
+  }
+  .contacts__btn {
+    font-size: 20pt;
+  }
+}
 @media (min-width: 720px) {
+  .reverse-block {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .main__description-image {
+    max-width: 100%;
+    margin: 0;
+  }
+  .main__description-block {
+    width: 1000px;
+  }
+  .main__content-image {
+    max-width: 120%;
+  }
+  .sertification__img {
+    width: 100%;
+  }
   .main__description-text {
     background: rgba(255, 255, 0, 0.7);
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: row-reverse;
   }
   .main__description-text p {
     padding: 10px 20px;
@@ -337,11 +509,8 @@ h6 {
     font-size: 12.5pt;
   }
   /*cooperation*/
-  .cooperation__img {
+  .cooperation__content-container {
     display: block;
-  }
-  .cooperation__hidden-block {
-    display: none;
   }
   .cooperation__title {
     font-size: 23pt;
@@ -369,8 +538,35 @@ h6 {
     margin-bottom: 50px;
   }
   /*history*/
+  .history__inner {
+    display: flex;
+  }
+  .history__image {
+    width: 120%;
+  }
   .history__title {
     font-size: 23pt;
+  }
+  .timeline-button {
+    font-size: 0;
+    border: none;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+  }
+  .timeline-button-1 {
+    background-image: url("../img/calendar_arrows.png");
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+    background-position: 172px;
+  }
+  .timeline-button-2 {
+    background-image: url("../img/calendar_arrows.png");
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+    background-position: 65px;
   }
   .timeline {
     height: 62px;
@@ -401,6 +597,9 @@ h6 {
     font-size: 12.5pt;
   }
   /*sertification*/
+  .sertification__img {
+    width: 120%;
+  }
   .sertification__text {
     padding-top: 20px;
     font-size: 12.5pt;
@@ -472,19 +671,51 @@ h6 {
   color: #333333;
 }
 /*page-footer*/
-.page-footer {
-  background: #ccc;
+.page-footer__contact-list {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #333333;
+  font-size: 13pt;
 }
-.footer__copyright {
+.page-footer {
+  background-color: #ccc;
+}
+.social-image {
+  font-size: 2em;
+  color: #333333;
+}
+.footer__copyright-falanster {
+  display: inline-block;
   margin-bottom: 150px;
   color: #333333;
   font-size: 13pt;
+}
+.footer-copyright-image {
+  margin-right: 15px;
+  display: inline-block;
+}
+.footer__copyright {
+  display: inline-flex;
 }
 .mail,
 .tel {
   color: #333333;
 }
-@media (min-width: 720px) {
+.page-footer__image {
+  height: 50px;
+  background-image: url(../img/spritesheetnew.png);
+  background-size: contain;
+  margin-bottom: 20px;
+}
+@media (min-width: 480px) {
+  .contacts__title {
+    font-size: 21pt;
+  }
+  .page-footer__image {
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
   .contacts__title {
     font-size: 23pt;
   }
@@ -501,12 +732,4 @@ h6 {
   .social {
     padding-bottom: 40px;
   }
-  .page-footer__contact-list {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #333333;
-    font-size: 13pt;
-  }
 }
-@desctop-second-width ~"(min-width: 1024px)"
-@mobile-widths-only: ~"(max-width: 767px)";

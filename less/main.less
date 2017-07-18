@@ -108,7 +108,7 @@
   list-style: none;
   color: #fff;
   margin: 0;
-  padding: 20px;
+  padding-top: 0;
 }
 
 .cooperation {
@@ -130,6 +130,41 @@
 }
 
 /*history*/
+.history__image {
+  width: 100%;
+}
+
+
+.timeline__active-year {
+  color: #ececec;
+}
+
+.timeline-button {
+  display: inline-block;
+  font-size: 0;
+   border: none;
+   background: transparent;
+}
+
+.timeline__inner {
+  margin-top: 30px;
+}
+
+.timeline-button-1 {
+  background-image:  url("../img/calendar_arrows.png");
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+    background-position: 120px;
+}
+
+.timeline-button-2 {
+  background-image:  url("../img/calendar_arrows.png");
+    width: 40px;
+    height: 50px;
+    background-size: cover;
+      background-position: 45px;
+}
 
 .history__title {
   font-size: 19pt;
@@ -140,7 +175,12 @@
   background: #333333;
 }
 
+.timeline__inner {
+  display: inline-flex;
+}
+
 .timeline {
+  display: inline-block;
   height: 50px;
   background: #808080;
   color: #999999;
@@ -198,10 +238,11 @@
 .sertification__text {
   padding-top: 20px;
   font-size: 11pt;
+  margin-bottom: 50px;
 }
 
 .sertification__img {
-  width: 70%;
+  width: 100%;
 }
 
 .sertification {
@@ -268,11 +309,165 @@
   width: 100%;
 }
 
+.cooperation__img-carrot {
+  width: 22%;
+}
+
+@media @tablet-widths {
+
+  .main__description-text {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .main__description-image {
+    max-width: 140%;
+    margin: 0;
+  }
+
+  .main___content-text p {
+    font-size: 12pt;
+
+  }
+
+  .main___content-text h2 {
+    font-size: 21pt;
+  }
+
+  .presentation__title {
+    font-size: 21pt;
+  }
+
+  .presentation__text {
+    font-size: 12pt;
+  }
+
+.cooperation__content-container {
+  display: flex;
+}
+
+.cooperation-inner {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+  .cooperation__hidden-block {
+    display: none;
+  }
+
+.cooperation__img {
+  display: block;
+}
+
+  .cooperation__title {
+    font-size: 21pt;
+  }
+
+.cooperation__list {
+  padding: 0;
+}
+
+  .cooperation__name {
+    text-align: left;
+    font-size: 21pt;
+  }
+
+  .cooperation__description {
+    font-size: 12pt;
+    text-align: left;
+    padding: 0;
+  }
+
+  .cooperation__btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16.5pt;
+  }
+
+  .timeline {
+    font-size: 34pt;
+  }
+
+  .history__title {
+    font-size: 21pt;
+  }
+
+  .history__list-title {
+    font-size: 16pt;
+  }
+
+  .history__list {
+    font-size: 12pt;
+  }
+
+  .objectives__title {
+    font-size: 16pt;
+  }
+
+  .objectives__text {
+    font-size: 12pt;
+  }
+
+  .sertification__title {
+      font-size: 21pt;
+  }
+
+  .sertification__text {
+    font-size: 12pt;
+  }
+
+  .links__title {
+    font-size: 21pt;
+  }
+
+  .link__buttons {
+    font-size: 21pt;
+  }
+
+  .links__text {
+    font-size: 12pt;
+  }
+
+  .btn__list {
+    font-size: 13pt;
+  }
+
+  .contacts__btn {
+    font-size: 20pt;
+  }
+
+}
+
 
 @media @desktop-widths {
+
+  .reverse-block {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .main__description-image {
+    max-width: 100%;
+    margin: 0;
+  }
+
+.main__description-block {
+  width: 1000px;
+}
+
+  .main__content-image {
+    max-width: 120%;
+  }
+
+  .sertification__img {
+    width: 100%;
+  }
+
 .main__description-text {
   background: rgba(255, 255, 0, 0.7);
   margin-bottom: 70px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .main__description-text p {
@@ -313,12 +508,8 @@ padding: 10px 20px;
 
 /*cooperation*/
 
-.cooperation__img {
+.cooperation__content-container {
   display: block;
-}
-
-.cooperation__hidden-block {
-  display: none;
 }
 
 .cooperation__title {
@@ -352,11 +543,43 @@ padding: 10px 20px;
 }
 
 /*history*/
+.history__inner {
+  display: flex;
+}
+
+.history__image {
+  width: 120%;
+}
 
 .history__title {
   font-size: 23pt;
 }
 
+.timeline-button {
+  font-size: 0;
+   border: none;
+   background: transparent;
+   width: 30px;
+   height: 30px;
+}
+
+
+
+.timeline-button-1 {
+  background-image:  url("../img/calendar_arrows.png");
+  width: 60px;
+  height: 70px;
+  background-size: cover;
+  background-position: 172px;
+}
+
+.timeline-button-2 {
+  background-image:  url("../img/calendar_arrows.png");
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+      background-position: 65px;
+}
 
 .timeline {
   height: 62px;
@@ -394,6 +617,10 @@ padding: 10px 20px;
 
 
 /*sertification*/
+.sertification__img {
+  width: 120%;
+}
+
 .sertification__text {
   padding-top: 20px;
   font-size: 12.5pt;
