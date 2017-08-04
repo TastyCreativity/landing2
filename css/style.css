@@ -112,320 +112,9 @@ h6 {
     color: #ffff00;
   }
 }
-.contacts-container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-/*cooperation*/
-/*history*/
-.history__image {
-  width: 100%;
-}
-.timeline__active-year {
-  color: #ececec;
-}
-.timeline-button {
-  display: inline-block;
-  font-size: 0;
-  border: none;
-  background: transparent;
-}
-.timeline__inner {
-  margin-top: 30px;
-}
-.timeline-button-1 {
-  background-image: url("../img/calendar_arrows.png");
-  width: 40px;
-  height: 50px;
-  background-size: cover;
-  background-position: 120px;
-}
-.timeline-button-2 {
-  background-image: url("../img/calendar_arrows.png");
-  width: 40px;
-  height: 50px;
-  background-size: cover;
-  background-position: 45px;
-}
-.history__title {
-  font-size: 19pt;
-  color: #ffff00;
-}
-.history {
-  background: #333333;
-}
-.timeline__inner {
-  display: inline-flex;
-}
-.timeline {
-  display: inline-block;
-  height: 50px;
-  background: #808080;
-  color: #999999;
-  font-size: 30pt;
-  margin-bottom: 65px;
-}
-.history__list-title {
-  color: #ffff00;
-  font-size: 15pt;
-}
-.history__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  color: #ffff00;
-  font-size: 11pt;
-}
-.history__objectives {
-  background: rgba(255, 255, 0, 0.7);
-  color: #333333;
-  padding: 20px;
-  margin-top: 65px;
-  margin-bottom: 85px;
-}
-.sertification__text-block {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.sertification__img {
-  width: 70%;
-}
-.objectives__title {
-  font-size: 15pt;
-  font-weight: 700;
-}
-.objectives__text {
-  font-size: 11pt;
-}
-/*sertification*/
-.sertification__title {
-  font-size: 19pt;
-  text-shadow: #000 1px 0 10px;
-  color: #fff;
-}
-.sertification__text {
-  padding-top: 20px;
-  font-size: 11pt;
-  margin-bottom: 50px;
-}
-.sertification__img {
-  width: 100%;
-}
-.sertification {
-  background: #b3b3b3;
-  color: #fff;
-  padding-bottom: 95px;
-}
-/*links*/
-.links-block {
-  padding-left: 25px;
-  padding-right: 25px;
-  background: #f2f2f2;
-}
-.links__title {
-  font-size: 19pt;
-  color: #333333;
-}
-.link__buttons {
-  border: none;
-  background: rgba(255, 255, 0, 0.7);
-  font-size: 18pt;
-  color: #333333;
-  padding-left: 20px;
-  text-align: left;
-  width: 100%;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
-.links__text {
-  font-size: 11pt;
-  margin-bottom: 35px;
-}
-.btn__list {
-  margin: 0;
-  width: 100%;
-  text-align: left;
-  padding-left: 35px;
-  border: none;
-  height: 90px;
-  font-size: 18pt;
-  font-weight: 700;
-  margin-bottom: 35px;
-}
-.link__img {
-  width: 100%;
-  margin-bottom: 35px;
-}
-.contacts__btn {
-  font-size: 18pt;
-  color: #333333;
-  background: rgba(255, 255, 0, 0.7);
-  border-bottom: 3px solid #333333;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  padding: 10px 0 10px 0;
-  width: 100%;
-}
-.cooperation__img-carrot {
-  width: 22%;
-}
-@media (min-width: 480px) {
-  .timeline {
-    font-size: 34pt;
-  }
-  .history__title {
-    font-size: 21pt;
-  }
-  .history__list-title {
-    font-size: 16pt;
-  }
-  .history__list {
-    font-size: 12pt;
-  }
-  .objectives__title {
-    font-size: 16pt;
-  }
-  .objectives__text {
-    font-size: 12pt;
-  }
-  .sertification__title {
-    font-size: 21pt;
-  }
-  .sertification__text {
-    font-size: 12pt;
-  }
-  .links__title {
-    font-size: 21pt;
-  }
-  .link__buttons {
-    font-size: 21pt;
-  }
-  .links__text {
-    font-size: 12pt;
-  }
-  .btn__list {
-    font-size: 13pt;
-  }
-  .contacts__btn {
-    font-size: 20pt;
-  }
-}
-@media (min-width: 720px) {
-  .sertification__img {
-    width: 100%;
-  }
-  /*presrntation*/
-  /*cooperation*/
-  /*history*/
-  .history__inner {
-    display: flex;
-  }
-  .history__image {
-    width: 120%;
-  }
-  .history__title {
-    font-size: 23pt;
-  }
-  .timeline-button {
-    font-size: 0;
-    border: none;
-    background: transparent;
-    width: 30px;
-    height: 30px;
-  }
-  .timeline-button-1 {
-    background-image: url("../img/calendar_arrows.png");
-    width: 60px;
-    height: 70px;
-    background-size: cover;
-    background-position: 172px;
-  }
-  .timeline-button-2 {
-    background-image: url("../img/calendar_arrows.png");
-    width: 60px;
-    height: 70px;
-    background-size: cover;
-    background-position: 65px;
-  }
-  .timeline {
-    height: 62px;
-    font-size: 36pt;
-    margin-bottom: 65px;
-  }
-  .history__list-title {
-    font-size: 12.5pt;
-  }
-  .history__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 12.5pt;
-  }
-  .history__objectives {
-    background: rgba(255, 255, 0, 0.7);
-    color: #333333;
-    padding: 25px 20px 40px 20px;
-    margin-top: 65px;
-    margin-bottom: 85px;
-  }
-  .objectives__title {
-    font-size: 16pt;
-    font-weight: 700;
-  }
-  .objectives__text {
-    font-size: 12.5pt;
-  }
-  /*sertification*/
-  .sertification__img {
-    width: 120%;
-  }
-  .sertification__text {
-    padding-top: 20px;
-    font-size: 12.5pt;
-  }
-  /*links*/
-  .links-block {
-    padding-left: 0;
-    padding-right: 0;
-    background: #f2f2f2;
-  }
-  .links__title {
-    font-size: 23pt;
-  }
-  .links__text {
-    font-size: 11pt;
-  }
-  .links__contetnt {
-    margin-bottom: 50px;
-  }
-  .links__list {
-    text-align: left;
-    text-transform: uppercase;
-    color: #666666;
-  }
-  .btn__list {
-    margin: 0;
-    width: 100%;
-    text-align: left;
-    padding-left: 35px;
-    border: none;
-    height: 90px;
-    font-size: 16pt;
-    font-weight: 700;
-    margin-bottom: 35px;
-  }
-  .link__button-img {
-    margin-right: 30px;
-  }
-  .links-btn {
-    background: rgba(255, 255, 0, 0.7);
-  }
-  .contacts__btn {
-    font-size: 20pt;
-  }
-}
 .contacts__title {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
   font-size: 19pt;
   color: #333333;
   text-align: center;
@@ -435,23 +124,33 @@ h6 {
   padding-right: 20px;
 }
 .contacts__text {
-  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   padding-bottom: 0;
   font-size: 11pt;
   color: #333333;
 }
 .contact-link {
-  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   display: block;
   font-size: 11pt;
   color: #333333;
 }
 .contacts__text-links {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   padding-bottom: 40px;
   color: #333333;
 }
+.contacts-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /*page-footer*/
 .page-footer__contact-list {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #333333;
@@ -465,6 +164,8 @@ h6 {
   color: #333333;
 }
 .footer__copyright-falanster {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
   display: inline-block;
   margin-bottom: 150px;
   color: #333333;
@@ -766,5 +467,334 @@ h6 {
   }
   .main___content-text {
     margin-bottom: 55px;
+  }
+}
+.history__image {
+  width: 100%;
+}
+.timeline__active-year {
+  color: #ececec;
+}
+.timeline-button {
+  display: inline-block;
+  font-size: 0;
+  border: none;
+  background: transparent;
+}
+.timeline-button-1 {
+  background-image: url("../img/calendar_arrows.png");
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+  background-position: 120px;
+}
+.timeline-button-2 {
+  background-image: url("../img/calendar_arrows.png");
+  width: 40px;
+  height: 50px;
+  background-size: cover;
+  background-position: 45px;
+}
+.history__title {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 19pt;
+  color: #ffff00;
+}
+.history {
+  background: #333333;
+}
+.timeline__inner {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.timeline {
+  display: inline-block;
+  height: 50px;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  background: #808080;
+  color: #999999;
+  font-size: 30pt;
+  margin-bottom: 65px;
+}
+.history__list-title {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  color: #ffff00;
+  font-size: 15pt;
+}
+.history__list {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #ffff00;
+  font-size: 11pt;
+}
+.history__objectives {
+  background: rgba(255, 255, 0, 0.7);
+  color: #333333;
+  padding: 20px;
+  margin-top: 65px;
+  margin-bottom: 85px;
+}
+.objectives__title {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 15pt;
+  font-weight: 700;
+}
+.objectives__text {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 11pt;
+}
+@media (min-width: 480px) {
+  .timeline {
+    font-size: 34pt;
+  }
+  .history__title {
+    font-size: 21pt;
+  }
+  .history__list-title {
+    font-size: 16pt;
+  }
+  .history__list {
+    font-size: 12pt;
+  }
+  .objectives__title {
+    font-size: 16pt;
+  }
+  .objectives__text {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 720px) {
+  .history__inner {
+    display: flex;
+  }
+  .history__image {
+    width: 120%;
+  }
+  .history__title {
+    font-size: 23pt;
+  }
+  .timeline-button {
+    font-size: 0;
+    border: none;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+  }
+  .timeline-button-1 {
+    background-image: url("../img/calendar_arrows.png");
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+    background-position: 172px;
+  }
+  .timeline-button-2 {
+    background-image: url("../img/calendar_arrows.png");
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+    background-position: 65px;
+  }
+  .timeline {
+    height: 62px;
+    font-size: 36pt;
+    margin-bottom: 65px;
+  }
+  .history__list-title {
+    font-size: 12.5pt;
+  }
+  .history__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12.5pt;
+  }
+  .history__objectives {
+    background: rgba(255, 255, 0, 0.7);
+    color: #333333;
+    padding: 25px 20px 40px 20px;
+    margin-top: 65px;
+    margin-bottom: 85px;
+  }
+  .objectives__title {
+    font-size: 16pt;
+    font-weight: 700;
+  }
+  .objectives__text {
+    font-size: 12.5pt;
+  }
+}
+.sertification__text-block {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sertification__img {
+  width: 70%;
+}
+.sertification__title {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 19pt;
+  text-shadow: #000 1px 0 10px;
+  color: #fff;
+}
+.sertification__text {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+  font-size: 11pt;
+  margin-bottom: 50px;
+}
+.sertification__img {
+  width: 100%;
+}
+.sertification {
+  background: #b3b3b3;
+  color: #fff;
+  padding-bottom: 95px;
+}
+@media (min-width: 480px) {
+  .sertification__title {
+    font-size: 21pt;
+  }
+  .sertification__text {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 720px) {
+  .sertification__img {
+    width: 120%;
+  }
+  .sertification__text {
+    padding-top: 20px;
+    font-size: 12.5pt;
+  }
+}
+.links-block {
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #f2f2f2;
+}
+.links__title {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 19pt;
+  color: #333333;
+}
+.link__buttons {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  border: none;
+  background: rgba(255, 255, 0, 0.7);
+  font-size: 18pt;
+  color: #333333;
+  padding-left: 20px;
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.links__text {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  margin-bottom: 35px;
+}
+.btn__list {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 35px;
+  border: none;
+  height: 90px;
+  font-size: 18pt;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.link__img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.contacts__btn {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18pt;
+  color: #333333;
+  background: rgba(255, 255, 0, 0.7);
+  border-bottom: 3px solid #333333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+.cooperation__img-carrot {
+  width: 22%;
+}
+@media (min-width: 480px) {
+  .links__title {
+    font-size: 21pt;
+  }
+  .link__buttons {
+    font-size: 21pt;
+  }
+  .links__text {
+    font-size: 12pt;
+  }
+  .btn__list {
+    font-size: 13pt;
+  }
+  .contacts__btn {
+    font-size: 20pt;
+  }
+}
+@media (min-width: 720px) {
+  .links-block {
+    padding-left: 0;
+    padding-right: 0;
+    background: #f2f2f2;
+  }
+  .links__title {
+    font-size: 23pt;
+  }
+  .links__text {
+    font-size: 11pt;
+  }
+  .links__contetnt {
+    margin-bottom: 50px;
+  }
+  .links__list {
+    text-align: left;
+    text-transform: uppercase;
+    color: #666666;
+  }
+  .btn__list {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 35px;
+    border: none;
+    height: 90px;
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+  .link__button-img {
+    margin-right: 30px;
+  }
+  .links-btn {
+    background: rgba(255, 255, 0, 0.7);
+  }
+  .contacts__btn {
+    font-size: 20pt;
   }
 }
