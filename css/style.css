@@ -14,6 +14,29 @@ h6 {
 .visually-hidden {
   display: none;
 }
+.navbar {
+  padding: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.nav__left {
+  display: flex;
+  align-items: baseline;
+  float: left;
+}
+.nav__right {
+  float: right;
+}
+.falanster-button {
+  background-image: url("img/f_arrow.png");
+  background-size: cover;
+}
+.top-nav-collapse {
+  padding: 0;
+}
 .main-header__nav {
   background-color: #808080;
   color: #333333;
