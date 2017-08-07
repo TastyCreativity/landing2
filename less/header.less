@@ -8,9 +8,14 @@
     transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
+.navbar-toggle {
+  display: block;
+  background-color: none;
+}
+
 .nav__left {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   float: left;
 }
 
@@ -75,6 +80,9 @@
 }
 
 @media @tablet-widths {
+  .navbar-toggle {
+    display: block;
+  }
   .intro-message__intro-title {
     font-size: 30.5pt;
   }
@@ -90,6 +98,9 @@
 }
 
 @media @desktop-widths {
+  .navbar-toggle {
+    display: block;
+  }
 
 .nav__nav-list {
   list-style: none;
