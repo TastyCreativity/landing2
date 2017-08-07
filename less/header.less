@@ -1,3 +1,30 @@
+.navbar {
+  padding: 20px;
+ color: #fff;
+   text-shadow: 1px 1px 2px black;
+    // padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.nav__left {
+  display: flex;
+  align-items: baseline;
+  float: left;
+}
+
+.nav__right {
+  float: right;
+}
+
+.falanster-button {
+  background-image: url("img/f_arrow.png");
+  background-size: cover;
+}
+.top-nav-collapse {
+    padding: 0;
+}
 
 .main-header__nav {
   background-color: #808080;
@@ -10,6 +37,7 @@
 
 .intro-message__intro-title {
   color: #fff;
+  font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 25pt;
   font-weight: 700;
   text-shadow: 1px 1px 2px black;
@@ -18,16 +46,22 @@
 .intro-message__affiliate {
   font-size: 11pt;
   margin-top: 0;
+  font-weight: 500px;
+  font-family: "Ubuntu", "Arial", sans-serif;
   margin-bottom: 30px;
 }
 
 .intro-message__title-description {
+  font-weight: 400px;
+  font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 16pt;
   color: #000;
   margin-bottom: 200px;
 }
 
 .intro-message__tag {
+  font-weight: 400px;
+  font-family: "Ubuntu Mono", "Arial", sans-serif;
   font-size: 10pt;
   color: #ffff00;
 }
@@ -56,8 +90,6 @@
 }
 
 @media @desktop-widths {
-
-.nav__nav-button
 
 .nav__nav-list {
   list-style: none;

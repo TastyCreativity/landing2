@@ -26,22 +26,49 @@
 
 </head>
 <header class="main-header">
-  <div class="main-header__nav">
-    <div class="nav__left-block">
-      <ul class="nav__nav-list">
-        <li class="nav__nav-item">
-          <a class="main-header__bars" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
-        </li>
-        <li class="nav__nav-item">Фаланстэр</li>
-      </ul>
+  <nav class="navbar navbar-default navbar-fixed-top main-nav" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav nav nav__left">
+
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <button>тут будет кнопка</button>
+          </li>
+          <li class="falanster-button">
+            <a class="page-scroll" href="#contact">фаланстэр</a> </li>
+        </ul>
+        <ul class="nav navbar-nav nav__right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">BY</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">EN</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <div class="nav__right-block">
-      <ul class="nav__nav-list">
-        <li class="nav__nav-item">BY</li>
-        <li class="nav__nav-item">EN</li>
-      </ul>
-    </div>
-  </div>
+    <!-- /.container -->
+  </nav>
 </header>
 <body>
   <section class="page-header__intro-message">
@@ -451,7 +478,12 @@ creative commons
 </section>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 </body>
 </html>
