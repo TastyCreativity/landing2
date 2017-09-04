@@ -788,6 +788,7 @@ h6 {
     margin-bottom: 50px;
   }
   .links__list {
+    position: relative;
     text-align: left;
     text-transform: uppercase;
     color: #666666;
@@ -926,4 +927,58 @@ h6 {
 
 .nav-list a:active {
     color: #ссс;
+}
+
+@media (max-width: 425px) {
+    .main-navbar {
+        position: static;
+    }
+}
+
+@media (max-width: 665px) {
+    .main-navbar {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-list {
+        margin: 0 auto;
+    }
+}
+
+.links-menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 35px;
+    background-color: #fff;
+    padding-top: 20px;
+    position: relative;
+    top: -35px;
+}
+
+.links-menu li {
+    margin-bottom: 25px;
+}
+
+.links-menu li:last-child {
+    margin-bottom: 20px;
+}
+
+.links-menu a {
+    color: #686868;
+    text-decoration: underline;
 }
