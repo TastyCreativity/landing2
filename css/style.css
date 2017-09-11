@@ -195,11 +195,18 @@ h6 {
 .tel {
   color: #333333;
 }
+
 .page-footer__image {
+  position: relative;
+  left: 0;
+  right: 0;
   height: 50px;
+  background-repeat: no-repeat;
   background-image: url(../img/spritesheetnew.png);
   background-size: contain;
+  background-position: center;
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 @media (min-width: 480px) {
   .contacts__title {
