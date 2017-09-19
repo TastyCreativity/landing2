@@ -186,10 +186,7 @@ h6 {
   padding-bottom: 40px;
   color: #333333;
 }
-.contacts-container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 /*page-footer*/
 .page-footer__contact-list {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -284,10 +281,7 @@ h6 {
   color: #ffff00;
   margin-bottom: 0;
 }
-.cooperation__btn-block {
-  padding-left: 25px;
-  padding-right: 25px;
-}
+
 .cooperation__img {
   display: none;
 }
@@ -463,10 +457,6 @@ h6 {
   padding: 20px 60px;
 }
 @media (min-width: 480px) {
-  .main__description-text {
-    display: flex;
-    flex-direction: row-reverse;
-  }
   .main__description-image {
     max-width: 140%;
     margin: 0;
@@ -487,17 +477,12 @@ h6 {
     max-width: 100%;
     margin: 0;
   }
-  .main__description-block {
-    width: 1000px;
-  }
   .main__content-image {
     max-width: 120%;
   }
   .main__description-text {
     background: rgba(255, 255, 0, 0.7);
     margin-bottom: 70px;
-    display: flex;
-    flex-direction: row-reverse;
   }
   .main__description-text p {
     padding: 10px 20px;
@@ -1097,4 +1082,24 @@ img-fluid {
     width: 100%;
     max-width: 100%;
     height: auto;
+}
+
+.cooperation__content-container {
+    padding: 0;
+}
+
+.no-padding {
+    padding-left: 0;
+}
+
+.contacts-map {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+@media (max-width: 767px) {
+    .img-margin {
+        margin-bottom: 40px;
+    }
 }
