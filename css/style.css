@@ -325,9 +325,6 @@ h6 {
     margin-right: 20px;
     margin-left: 10px;
   }
-  .cooperation__hidden-block {
-    display: none;
-  }
   .cooperation__img {
     display: block;
   }
@@ -428,8 +425,6 @@ h6 {
 .main__description-text {
   background: rgba(255, 255, 0, 0.7);
   margin-bottom: 70px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 .main__description-text p {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -477,9 +472,6 @@ h6 {
     max-width: 100%;
     margin: 0;
   }
-  .main__content-image {
-    max-width: 120%;
-  }
   .main__description-text {
     background: rgba(255, 255, 0, 0.7);
     margin-bottom: 70px;
@@ -519,7 +511,7 @@ h6 {
   padding-top: 50px;
   padding-bottom: 50px;
   background: #333333;
-  min-height: 650px;
+  min-height: 730px;
 }
 
 .history__list-title {
@@ -633,7 +625,7 @@ h6 {
 .sertification {
   background: #b3b3b3;
   color: #fff;
-  padding-bottom: 95px;
+  min-height: 360px;
 }
 @media (min-width: 480px) {
   .sertification__title {
@@ -1092,13 +1084,17 @@ img-fluid {
     padding-left: 0;
 }
 
+.no-padding-all {
+    padding: 0;
+}
+
 .contacts-map {
     padding-right: 0;
     padding-left: 0;
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .img-margin {
         margin-bottom: 40px;
     }
