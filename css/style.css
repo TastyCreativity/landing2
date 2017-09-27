@@ -50,10 +50,10 @@ h6 {
   margin-bottom: 30px;
 }
 .intro-message__title-description {
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 16pt;
-  color: #000;
+  color: #333333;
   margin-bottom: 200px;
 }
 
@@ -62,7 +62,7 @@ h6 {
   bottom: 60px;
   left: 0;
   right: 0;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Ubuntu Mono", "Arial", sans-serif;
   font-size: 10pt;
   color: #ffff00;
@@ -127,9 +127,6 @@ h6 {
     margin-right: 40px;
     margin-top: 10px;
   }
-  .intro-message__logo {
-    padding-top: 55px;
-  }
   .intro-message__intro-title {
     font-size: 46pt;
     font-weight: 700;
@@ -146,7 +143,7 @@ h6 {
   }
   .intro-message__title-description {
     font-size: 24pt;
-    color: #000;
+    color: #333333;
     margin-bottom: 200px;
   }
   .intro-message__tag {
@@ -223,6 +220,7 @@ h6 {
 .mail,
 .tel {
   color: #333333;
+  text-decoration: underline;
 }
 
 .page-footer__image {
@@ -702,7 +700,7 @@ h6 {
   font-weight: 500;
   font-size: 18pt;
   color: #333333;
-  background: rgba(255, 255, 0, 0.7);
+  background: rgba(255, 255, 0, 1);
   box-shadow: 0 1px 1px 0 #333;
   border-top: none;
   border-left: none;
@@ -853,7 +851,7 @@ h6 {
 .nav-right a {
     color: #F8F8F8;
     margin-right: 15px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .nav-list {
@@ -953,6 +951,7 @@ h6 {
 #time1:checked ~ .slide-timeline-1 {
     display: block;
 }
+
 
 #time2:checked ~ .slide-timeline-2 {
     display: block;
@@ -1061,6 +1060,10 @@ h6 {
 
 .header-arrow:hover {
     background-image: url("../img/arrow-gray.png");
+    width: 126px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .h2-margin {
