@@ -1116,3 +1116,7 @@ img-fluid {
         margin-left: 40px;
     }
 }
+
+.fullWidth {
+  width: 100%;
+}
